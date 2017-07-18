@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Levels
+comment0.text=\r\n\ Rooms\ Escape\r\n\ Make\ your\ way\ through\ each\ room\ and\ defeat\ the\ boss\ to\ escape\!\r\n\ \r\n\ @author\ Emily\ Wu\r\n\ @version\ 4.0\r\n\ \r\n\ Credits\:\ \r\n\ \r\n\ Code\:\ -\ Animation\ of\ Potato\ and\ Tomato\ borrowed\ from\ Mr.Cohen\ (http\://www.greenfoot.org/scenarios/8407)\r\n\ \ \ \ \ \ \ -\ Potato\ jump/\ fall\ code\ borrowed\ from\ http\://www.greenfoot.org/scenarios/3061\r\n\ \r\n\ Pictures\:\ -\ Ladder\ (http\://www.engine001.com/community/resources/ladder-RLL7Q8.gif)\r\n\ \ \ \ \ \ \ \ \ \ \ -\ Door\ (https\://s-media-cache-ak0.pinimg.com/originals/6a/d8/9f/6ad89f3f85f0f1d650fe562b0084435e.png)\r\n\ \ \ \ \ \ \ \ \ \ \ -\ Spacebar\ (http\://www.clker.com/cliparts/i/K/s/w/t/o/handbrake.svg)\r\n\ \ \ \ \ \ \ \ \ \ \ -\ Arrow\ Keys\ (https\://image.freepik.com/free-vector/arrow-keys-vectors_637061.jpg)\r\n\ \ \ \ \ \ \ \ \ \ \ -\ Last\ background\ (http\://orig02.deviantart.net/15ca/f/2011/261/f/8/f869873820869a31a771f7a50bf0c488-d4a6hvp.jpg)\r\n\ \r\n\ Music\:\ Background\ music\ (https\://www.youtube.com/watch?v\=BksG0hGu21E)\r\n\ \ \ \ \ \ \ \ Player\ shooting\ sound\ (https\://www.youtube.com/watch?v\=J37kP0e_NRo)\r\n\ \r\n\ Bugs\:\ -\ Player\ falls\ through\ platforms\ at\ high\ falling\ speeds\ or\ when\ ducking\ and\ falling\r\n\ \ \ \ \ \ \ -\ Player\ may\ get\ stuck\ below\ platforms\ when\ ducking\ or\ pressing\ multiple\ keys\ at\ once\r\n\ \ \ \ \ \ \ -\ Holding\ down\ the\ spacebar\ to\ shoot\ for\ a\ long\ time\ or\ pressing\ the\ button\ quickly\ makes\ the\ game\ lag\ \r\n
+comment1.params=
+comment1.target=Levels()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Levels.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ bottomPlatform()
+comment3.text=\r\n\ Adds\ the\ floor/\ bottom\ platform\ of\ each\ level\r\n
+comment4.params=
+comment4.target=void\ changeLivesDisplay()
+comment4.text=\r\n\ Updates\ the\ health\ text\ at\ the\ top\ left\ corner\ of\ the\ world\ \r\n
+comment5.params=
+comment5.target=void\ checkKeys()
+comment6.params=
+comment6.target=void\ checkLives()
+comment7.params=
+comment7.target=void\ removeAll()
+comment7.text=\r\n\ Removes\ the\ objects/\ actors\ in\ each\ room\ when\ changing\ levels\r\n
+comment8.params=
+comment8.target=void\ gameOver()
+comment9.params=
+comment9.target=void\ changeLevels()
+numComments=10
